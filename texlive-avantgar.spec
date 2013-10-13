@@ -1,12 +1,12 @@
-# revision 21993
+# revision 31835
 # category Package
 # catalog-ctan /fonts/urw/base35
-# catalog-date 2011-03-01 21:42:17 +0100
+# catalog-date 2012-06-06 22:57:48 +0200
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-avantgar
-Version:	20110301
-Release:	2
+Version:	20120606
+Release:	1
 Summary:	URW "Base 35" font pack for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/urw/base35
@@ -80,16 +80,6 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/fonts/tfm/adobe/avantgar/pagko8c.tfm
 %{_texmfdistdir}/fonts/tfm/adobe/avantgar/pagko8r.tfm
 %{_texmfdistdir}/fonts/tfm/adobe/avantgar/pagko8t.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/avantgar/pagd8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/avantgar/pagdc8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/avantgar/pagdo8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/avantgar/pagk8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/avantgar/pagkc8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/avantgar/pagko8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/avantgar/rpagd.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/avantgar/rpagdo.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/avantgar/rpagk.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/avantgar/rpagko.tfm
 %{_texmfdistdir}/fonts/tfm/urw35vf/avantgar/uagb7t.tfm
 %{_texmfdistdir}/fonts/tfm/urw35vf/avantgar/uagb8c.tfm
 %{_texmfdistdir}/fonts/tfm/urw35vf/avantgar/uagb8r.tfm
@@ -168,12 +158,6 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/fonts/vf/adobe/avantgar/pagko7t.vf
 %{_texmfdistdir}/fonts/vf/adobe/avantgar/pagko8c.vf
 %{_texmfdistdir}/fonts/vf/adobe/avantgar/pagko8t.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/avantgar/pagd8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/avantgar/pagdc8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/avantgar/pagdo8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/avantgar/pagk8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/avantgar/pagkc8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/avantgar/pagko8z.vf
 %{_texmfdistdir}/fonts/vf/urw35vf/avantgar/uagb7t.vf
 %{_texmfdistdir}/fonts/vf/urw35vf/avantgar/uagb8c.vf
 %{_texmfdistdir}/fonts/vf/urw35vf/avantgar/uagb8t.vf
@@ -228,18 +212,3 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips fonts tex %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110301-2
-+ Revision: 749441
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110301-1
-+ Revision: 717875
-- texlive-avantgar
-- texlive-avantgar
-- texlive-avantgar
-- texlive-avantgar
-- texlive-avantgar
-
